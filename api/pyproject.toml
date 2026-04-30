@@ -1,0 +1,18 @@
+[project]
+name = "api"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "anthropic>=0.52.0",
+    "fastapi>=0.115.0",
+    "httpx>=0.28.0",
+    "mcp>=1.27.0",
+    "openai>=2.33.0",
+    "pydantic>=2.10.0",
+    "pydantic-settings>=2.7.0",
+    "python-dotenv>=1.0.0",
+    "sse-starlette>=2.2.0",
+    "uvicorn>=0.34.0",
+]

@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx tsc *)",
+      "Bash(uv add *)",
+      "Bash(uv sync *)",
+      "Bash(npm install *)",
+      "Bash(uv run *)",
+      "Bash(npx *)",
+      "Bash(curl -s *)"
+    ]
+  }
+}
